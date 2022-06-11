@@ -1,0 +1,29 @@
+{
+    "name": "pliuta.mykhailo/alfa",
+    "description": "for internal use",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Pliuta Mykhailo",
+            "email": "mykhailo.pliuta@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/PliutaMykhailo/alfa",
+        "email": "mykhailo.pliuta@gmail.com"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "phpgangsta/googleauthenticator": "dev-master"
+
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/PHPGangsta/GoogleAuthenticator.git"
+        }
+    ]
+}
